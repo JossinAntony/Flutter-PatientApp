@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 main() => runApp(MyApp());
 
@@ -30,7 +31,79 @@ class MyApp extends StatelessWidget {
                     prefixIcon: Icon(Icons.person),
                   ),
                 ),
+
                 SizedBox(height:20.0),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter patient admission no.",
+                    prefixIcon: Icon(Icons.filter_9_plus),
+                  ),
+                ),
+
+                SizedBox(height:20),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter the address",
+                    prefixIcon: Icon(Icons.place),
+                  ),
+                ),
+
+                SizedBox(height:20.0),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter the mobile no. of patient",
+                    prefixIcon: Icon(Icons.phone_android),
+                  ),
+                ),
+
+                SizedBox(height:20.0),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter the email address of the patient",
+                    prefixIcon: Icon(Icons.email),
+                  ),
+                ),
+
+                SizedBox(height:20.0),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter the blood group of the patient",
+                    prefixIcon: Icon(Icons.local_hospital),
+                  ),
+                ),
+
+                SizedBox(height:20.0),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter the insurance number of the patient",
+                    prefixIcon: Icon(Icons.insert_drive_file),
+                  ),
+                ),
+
+                SizedBox(height:20.0),
+
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Enter the consulting doctor",
+                    prefixIcon: Icon(Icons.account_circle),
+                  ),
+                ),
+
+                SizedBox(height:20.0),
+
                 RaisedButton(
                   onPressed: (){},
                   child: Text('SAVE'),
