@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SearchPatient extends StatelessWidget {
+class UpdatePatient extends StatelessWidget {
 
   TextEditingController patientNameCntrlr = TextEditingController();
   @override
