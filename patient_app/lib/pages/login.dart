@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
+class LogIn extends StatelessWidget {
   TextEditingController pNameCntrlr = TextEditingController();
   TextEditingController pAdmnCntrlr = TextEditingController();
   TextEditingController pAdrssCntrlr = TextEditingController();
