@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class DeletePatient extends StatelessWidget {
+class UpdatePatient extends StatelessWidget {
 
   TextEditingController patientNameCntrlr = TextEditingController();
   @override
@@ -18,7 +18,7 @@ class DeletePatient extends StatelessWidget {
                       borderRadius: BorderRadius.circular((12)),
                     ),
                     prefixIcon: Icon(Icons.search),
-                    hintText: 'Enter patient\'s name to search',
+                    hintText: 'Enter patient\'s name to update',
                   ),
                 ),
 
