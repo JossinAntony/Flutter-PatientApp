@@ -3,6 +3,7 @@ import 'package:patient_app/pages/SearchPatient.dart';
 import 'package:patient_app/pages/addpatient.dart';
 import 'package:patient_app/pages/deletePatient.dart';
 import 'package:patient_app/pages/updatePatient.dart';
+import 'package:patient_app/pages/viewpatient.dart';
 
 class Navigation extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class Navigation extends StatefulWidget {
 
 class _NavigationState extends State<Navigation> {
 
-  final pages =[AddPatient(), SearchPatient(), UpdatePatient(), DeletePatient()];
+  final pages =[ViewPatient(), AddPatient(), SearchPatient(), UpdatePatient(), DeletePatient()];
   int _pageIndex = 0;
 
   @override
@@ -34,6 +35,11 @@ class _NavigationState extends State<Navigation> {
             });
           },
             items: [
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.person),
+                  title: Text('VIEW')
+              ),
+
               BottomNavigationBarItem(
                   icon: Icon(Icons.add_circle),
               title: Text('ADD')
